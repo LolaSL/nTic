@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nTic.css">
+</head>
+
+<body>
+    <section id="zoomtext">
+        <h1>Game "Tic Tac Toe"</h1>
+        <!-- Modal window -->
+        <h3>
+            <div class="aboutGame"></div>
+            <button id="aboutButton" onclick="modalOpen()">About Game</button>
+            <!-- The Modal -->
+            <div onclick="modalClose()" class="modal" id="myModal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span onclick="modalClose()" class="close">&times;</span>
+                    <p>"Tic-Tac-Toe" is the game for two players, X and O, who take turns marking the spaces in a 4x4
+                        grid.<br>
+                        1.Player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row
+                        is
+                        the
+                        winner. Alert message “Win: !” will appear.<br>
+                        2.If Player didn’t reach the desired stipulation to place four of X or O marks in a horizontal,
+                        vertical, or diagonal row. Alert message “Game Draw" will appear.<br>
+                        3. If Player tries to make a click to marked space in 4x4 grid, alert message “Cell is occupied”
+                        will
+                        appear.<br>
+                    </p>
+                </div>
+            </div>
+        </h3>
+        <div id="myGame"></div>
+        <main id="main">
+            <!-- The text in <td> elements are regular and left-aligned by default -->
+            <div align="left">
+                <span id='turn'>Current Player: X</span>
+            </div> <br />
+            <div class="status">
+                <table>
+                    <th colspan="2">Statistics</th>
+                    <tr>
+                        <td>X</td>
+                        <td><span id="sX">0</span></td>
+                    </tr>
+                    <tr>
+                        <td>O</td>
+                        <td><span id="sO">0</span></td>
+                    </tr>
+                    <tr>
+                        <td>Draw game</td>
+                        <td><span id="sD">0</span></td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </section>
+    <footer id="footer">
+        <div class="headline">
+            <button id="zoomOut">&nbsp;&nbsp;zoom-out</button>
+            <button id="zoomIn">&nbsp;&nbsp;zoom-in</button>
+            <p><strong>Developed by Lola Shepota</strong></p>
+        </div>
+    </footer>
+    <script src="modalId.js"></script>
+    <script type="text/javascript" src="https://master-akadem.ru/public_test_comp/scripts/listopad/anim.js"></script>
+    <script src="nTic.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,195 @@
+main>table,
+th,
+tr,
+td {
+    width: 100px;
+    height: 100px;
+    border-collapse: collapse;
+    background-color: #1f800f;
+    border: 3px solid white;
+    font-size: 40px;
+    color: #f1f2f7;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    transition: background .1s;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    padding: 5px;
+}
+
+td:hover {
+    background-color: #f8626f;
+}
+
+#turn {
+    width: 100px;
+    display: auto;
+    color: #f8626f;
+    font-size: 40px;
+    margin: 10px left;
+}
+
+/* game title - h1 teg HTML*/
+h1 {
+    color: #7e0b11;
+    text-align: center;
+    font-size: 45px;
+    transform: scale(1);
+    transition: 5s all;
+    font-style: 50px;
+    color:#f8626f;
+    font-style: italic;
+    font-weight: bold;
+    border: 2px solid grey;
+    padding: 10px;
+    border-radius: 100px;
+    opacity: 0, 9;
+    box-shadow: 3px 2px #5e5b5f;
+
+
+}
+
+h1:hover {
+    border: 10px solid gray;
+    transform: rotate(90 deg) scale(1);
+}
+
+
+/* teg HTML h3 - button "About Game" */
+h3 {
+    text-align: center;
+}
+
+/* teg HTML - modal window context */
+p {
+    color: #271618;
+}
+
+/* button "About Game" */
+.aboutGame {
+    position: center;
+    margin: 50px
+}
+
+/* button "About Game" */
+#aboutButton {
+    font-size: 17px;
+    color: #f1f2f7;
+    text-decoration: solid;
+    text-transform: uppercase;
+    background-color: #f8626f;
+    padding: 9px 13px;
+    text-shadow: 1px 1px;
+    border-radius: 30px;
+    border: 3px solid grey;
+    border-top: rgb(153, 162, 167);
+    border-bottom: 3px solid rgb(114, 116, 119);
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* button "About Game" */
+#aboutButton:hover {
+    background-color: #1f800f;
+    transform: scale(1.2) translateX(4px);
+}
+
+/* modal window */
+.modal {
+    display: none;
+    /* Hidden by default
+    position: fixed; /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    /* 10% from the top and centered */
+    padding: 20px;
+    border: 2px solid #888;
+    width: 90%;
+    text-align: initial;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    padding: 15px;
+    margin: 20px;
+    border: 7px solid gray;
+    text-align: center;
+    background-image: url('download.jpg');
+}
+
+#zoomOut {
+    font-size: 17px;
+    color: #f1f2f7;
+    text-decoration: solid;
+    text-transform: uppercase;
+    background-color: #f8626f;
+    padding: 9px 13px;
+    text-shadow: 1px 1px;
+    border-radius: 30px;
+    border: 3px solid grey;
+    border-top: rgb(153, 162, 167);
+    border-bottom: 3px solid rgb(114, 116, 119);
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#zoomOut:hover {
+    background-color: #1f800f;
+    transform: scale(1.2) translateX(4px);
+}
+
+#zoomIn {
+    font-size: 17px;
+    color: #f1f2f7;
+    text-decoration: solid;
+    text-transform: uppercase;
+    background-color: #f8626f;
+    padding: 9px 13px;
+    text-shadow: 1px 1px;
+    border-radius: 30px;
+    border: 3px solid grey;
+    border-top: rgb(153, 162, 167);
+    border-bottom: 3px solid rgb(114, 116, 119);
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#zoomIn:hover {
+    background-color: #1f800f;
+    ;
+    transform: scale(1.2) translateX(4px);
+}
