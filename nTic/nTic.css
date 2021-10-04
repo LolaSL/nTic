@@ -149,6 +149,7 @@ body {
     border: 7px solid gray;
     text-align: center;
     background-image: url('download.jpg');
+    background-size: cover;
 }
 
 #zoomOut {
